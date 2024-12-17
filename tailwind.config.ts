@@ -10,7 +10,11 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        'main-text': 'var(--main-text)',
+        'secondary-text': 'var(--secondary-text)',
+        accent: 'var(--accent-color)',
+        hover: 'var(--hover-button)',
+        borders: 'var(--borders-color)'
       },
     },
   },
