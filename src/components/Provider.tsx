@@ -15,7 +15,7 @@ const Provider = ({children}:IProviderProps) => {
   }, [])
 
   if (theme === null) {
-    return null
+    return setTheme('light')
   }
   return (
     <ThemeProvider defaultTheme={theme ?? 'light'} storageKey='theme'>
